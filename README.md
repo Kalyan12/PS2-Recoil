@@ -41,7 +41,7 @@ IMPORTANT NOTE: All of this is pure speculation!! There has been no officially r
   
   d. If this would place the shot outside of the tolerance the direction of the shot is manually chosen to bring the shot closer to the center
   
-    i. If the recoil angle has a variance then the average angle is used for the calculation
+      i. If the recoil angle has a variance then the average angle is used for the calculation
     
   e. The actual shot is now placed
   
