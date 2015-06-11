@@ -114,6 +114,6 @@ plot([smallestX,largestX], averageCoeff(1)*[smallestX,largestX]+averageCoeff(2),
 % Plotting tolerance
 ax = get(gca, 'ylim');
 plot([0 ax(2)/(tand(90-averageAngle))],[0 ax(2)],':c');
-plot([Tol/2 (ax(2)/(tand(90-averageAngle))+(Tol/2))],[0 ax(2)],':c');
-plot([-Tol/2 (ax(2)/(tand(90-averageAngle))-(Tol/2))],[0 ax(2)],':c');
-plot([-Tol/2 Tol/2],[0 0],':c');
+plot([Tol (ax(2)/(tand(90-averageAngle))+(Tol))],[0 ax(2)],':c');
+plot([-Tol (ax(2)/(tand(90-averageAngle))-(Tol))],[0 ax(2)],':c');
+plot([-Tol Tol],[0 0],':c');
