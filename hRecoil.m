@@ -26,8 +26,8 @@ function [xFinal, yFinal] = hRecoil(averageAngle, recoilAngle, Max, Min, xOne, y
     end
    
     % Changes direction of recoil if larger than tolerance
-    xMax = (yFinal/tand(90-averageAngle)) + (Tolerance/2);
-    xMin = (yFinal/tand(90-averageAngle)) - (Tolerance/2);
+    xMax = (yFinal/tand(90-averageAngle)) + (Tolerance);
+    xMin = (yFinal/tand(90-averageAngle)) - (Tolerance);
     
     
     if (xFinal > xMax)
